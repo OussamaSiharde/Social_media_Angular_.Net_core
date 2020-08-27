@@ -12,6 +12,8 @@
         <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
         <e p="IAutoRepository.cs" t="Include" />
+        <e p="Seed.cs" t="Include" />
+        <e p="UserSeedData.json" t="Include" />
       </e>
       <e p="DatingApp.csproj" t="IncludeRecursive" />
       <e p="DatingApp.db" t="Include" />
@@ -28,6 +30,8 @@
         <e p="20200818145026_InitialCreate.cs" t="Include" />
         <e p="20200819170317_addedUserMigrations.Designer.cs" t="Include" />
         <e p="20200819170317_addedUserMigrations.cs" t="Include" />
+        <e p="20200827132719_ExtendUserModel.Designer.cs" t="Include" />
+        <e p="20200827132719_ExtendUserModel.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Program.cs" t="Include" />
@@ -39,6 +43,7 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="models" t="Include">
+        <e p="Photo.cs" t="Include" />
         <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />
       </e>
