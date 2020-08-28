@@ -16,20 +16,17 @@ namespace DatingApp
            using (var scope = host.Services.CreateScope())
            {
                var services = scope.ServiceProvider;
-
                try
                {
                    var context = services.GetRequiredService<DataContext>();
                    context.Database.Migrate();
                    Seed.SeedUsers(context);
-
                }
                catch (Exception ex)
                {
                    var logger = services.GetRequiredService<ILogger<Program>>();
                    logger.LogError(ex, "An Error occured during migration");
                }
-
                host.Run();
            }
         }

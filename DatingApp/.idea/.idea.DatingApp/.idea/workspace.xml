@@ -14,25 +14,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a409cd5-3930-454e-8d26-262dfc15f0b9" name="Default Changelist" comment="registration">
-      <change afterPath="$PROJECT_DIR$/Data/Seed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/UsersControllers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DatingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IDatingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/PhotosrDetailedDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/UserForListDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatingApp.db" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/Extentions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Extentions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingAppWeb/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingAppWeb/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingAppWeb/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingAppWeb/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingAppWeb/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingAppWeb/src/app/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatingAppWeb/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DatingAppWeb/src/app/nav/nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +63,24 @@
         <option value="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Helpers/Extentions.cs" />
-        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Data/DataContext.cs" />
-        <option value="$PROJECT_DIR$/models/User.cs" />
         <option value="$PROJECT_DIR$/models/Photo.cs" />
         <option value="$PROJECT_DIR$/Data/Seed.cs" />
+        <option value="$PROJECT_DIR$/Data/IDatingRepository.cs" />
+        <option value="$PROJECT_DIR$/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/UsersControllers.cs" />
+        <option value="$PROJECT_DIR$/Dtos/PhotosrDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Helpers/Extentions.cs" />
+        <option value="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" />
+        <option value="$PROJECT_DIR$/models/User.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForListDto.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +91,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34962147" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30075705" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -137,7 +157,8 @@
       <workItem from="1598376361522" duration="1107000" />
       <workItem from="1598433524994" duration="1794000" />
       <workItem from="1598443943730" duration="1934000" />
-      <workItem from="1598534662564" duration="2584000" />
+      <workItem from="1598534662564" duration="4593000" />
+      <workItem from="1598616531691" duration="10473000" />
     </task>
     <task id="LOCAL-00001" summary="registration">
       <created>1597935296320</created>
@@ -175,22 +196,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="registration" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1016" height="366" key="GridCell.Tab.0.bottom" timestamp="1598537174462">
+    <state x="70" y="125" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598621512685">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1016" height="366" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598537174462" />
-    <state width="1016" height="366" key="GridCell.Tab.0.center" timestamp="1598537174461">
+    <state x="70" y="125" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1530.873@70.27.1530.873" timestamp="1598621512685" />
+    <state x="253" y="196" width="424" height="548" key="FileChooserDialogImpl" timestamp="1598621483794">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1016" height="366" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598537174461" />
-    <state width="1016" height="366" key="GridCell.Tab.0.left" timestamp="1598537174461">
+    <state x="253" y="196" width="424" height="548" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1598621483794" />
+    <state width="1484" height="203" key="GridCell.Tab.0.bottom" timestamp="1598632432463">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1016" height="366" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598537174461" />
-    <state width="1016" height="366" key="GridCell.Tab.0.right" timestamp="1598537174462">
+    <state width="1484" height="203" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598632432463" />
+    <state width="1484" height="203" key="GridCell.Tab.0.center" timestamp="1598632432462">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1016" height="366" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598537174461" />
+    <state width="1484" height="203" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
+    <state width="1484" height="203" key="GridCell.Tab.0.left" timestamp="1598632432462">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="203" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
+    <state width="1484" height="203" key="GridCell.Tab.0.right" timestamp="1598632432462">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="203" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
     <state width="1484" height="220" key="GridCell.Tab.1.bottom" timestamp="1597935393246">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -255,10 +284,10 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state width="1484" height="220" key="GridCell.Tab.4.right/70.27.1530.873@70.27.1530.873" timestamp="1597935393250" />
-    <state x="469" y="79" width="722" height="776" key="RiderGenerateDialog" timestamp="1597856959695">
+    <state x="469" y="79" width="722" height="776" key="RiderGenerateDialog" timestamp="1598620862981">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="469" y="79" width="722" height="776" key="RiderGenerateDialog/70.27.1530.873@70.27.1530.873" timestamp="1597856959695" />
+    <state x="469" y="79" width="722" height="776" key="RiderGenerateDialog/70.27.1530.873@70.27.1530.873" timestamp="1598620862981" />
     <state x="324" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1598445301209">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
