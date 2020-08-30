@@ -1,26 +1,30 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {HttpClientModule} from "@angular/common/http";
-import { NavComponent } from './nav/nav.component';
+import {NavComponent} from './nav/nav.component';
 import {FormsModule} from "@angular/forms";
 import {AuthService} from "./_services/auth.service";
-import { HomeComponent } from './home/home.component';
-import { RegisterComponent } from './register/register.component';
+import {HomeComponent} from './home/home.component';
+import {RegisterComponent} from './register/register.component';
 import {ErrorInterceptorProvider} from "./_services/error.interceptor";
 import {BsDropdownModule} from "ngx-bootstrap/dropdown";
-import { MemberListComponent } from './members/member-list/member-list.component';
-import { ListsComponent } from './lists/lists.component';
-import { MessagesComponent } from './messages/messages.component';
+import {MemberListComponent} from './members/member-list/member-list.component';
+import {ListsComponent} from './lists/lists.component';
+import {MessagesComponent} from './messages/messages.component';
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
-import { MemberCardComponent } from './members/member-card/member-card.component';
+import {MemberCardComponent} from './members/member-card/member-card.component';
 import {JwtModule} from "@auth0/angular-jwt";
-import { MemberDetailComponent } from './members/member-detail/member-detail.component';
+import {MemberDetailComponent} from './members/member-detail/member-detail.component';
+import {TabsModule} from "ngx-bootstrap/tabs";
+import {MemberDetailResolver} from "./_resolvers/member-detail.resolver";
+import {MemberListResolver} from "./_resolvers/member-list.resolver";
+import {NgxGalleryModule} from "ngx-gallery-9";
 
-export function tokenGetter(){
+export function tokenGetter() {
   return localStorage.getItem('token')
 }
 
@@ -43,8 +47,10 @@ export function tokenGetter(){
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
     RouterModule.forRoot(appRoutes),
+    TabsModule.forRoot(),
+    NgxGalleryModule,
     JwtModule.forRoot({
-      config : {
+      config: {
         tokenGetter: tokenGetter,
         allowedDomains: ['localhost:5000'],
         disallowedRoutes: ['localhost:5000/api/auth']
@@ -53,8 +59,11 @@ export function tokenGetter(){
   ],
   providers: [
     AuthService,
-    ErrorInterceptorProvider
+    ErrorInterceptorProvider,
+    MemberDetailResolver,
+    MemberListResolver
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -14,7 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a409cd5-3930-454e-8d26-262dfc15f0b9" name="Default Changelist" comment="registration">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/UserSeedData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/UserSeedData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.db" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Data/UserSeedData.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Data/UserSeedData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,7 @@
         <option value="$PROJECT_DIR$/models/User.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForListDto.cs" />
+        <option value="$PROJECT_DIR$/Data/UserSeedData.json" />
       </list>
     </option>
   </component>
@@ -128,7 +133,8 @@
       <workItem from="1598433524994" duration="1794000" />
       <workItem from="1598443943730" duration="1934000" />
       <workItem from="1598534662564" duration="4593000" />
-      <workItem from="1598616531691" duration="11711000" />
+      <workItem from="1598616531691" duration="12484000" />
+      <workItem from="1598799893793" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="registration">
       <created>1597935296320</created>
@@ -174,22 +180,22 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="253" y="196" width="424" height="548" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1598621483794" />
-    <state width="1484" height="203" key="GridCell.Tab.0.bottom" timestamp="1598641329809">
+    <state width="1484" height="240" key="GridCell.Tab.0.bottom" timestamp="1598769498227">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
-    <state width="1484" height="203" key="GridCell.Tab.0.center" timestamp="1598641329809">
+    <state width="1484" height="240" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598769498227" />
+    <state width="1484" height="240" key="GridCell.Tab.0.center" timestamp="1598769498226">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
-    <state width="1484" height="203" key="GridCell.Tab.0.left" timestamp="1598641329808">
+    <state width="1484" height="240" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598769498226" />
+    <state width="1484" height="240" key="GridCell.Tab.0.left" timestamp="1598769498226">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598641329808" />
-    <state width="1484" height="203" key="GridCell.Tab.0.right" timestamp="1598641329809">
+    <state width="1484" height="240" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598769498226" />
+    <state width="1484" height="240" key="GridCell.Tab.0.right" timestamp="1598769498227">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
+    <state width="1484" height="240" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598769498227" />
     <state width="1484" height="220" key="GridCell.Tab.1.bottom" timestamp="1597935393246">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
