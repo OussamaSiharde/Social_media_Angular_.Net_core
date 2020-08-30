@@ -14,37 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a409cd5-3930-454e-8d26-262dfc15f0b9" name="Default Changelist" comment="registration">
-      <change afterPath="$PROJECT_DIR$/Controllers/UsersControllers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/DatingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/IDatingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dtos/PhotosrDetailedDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dtos/UserForListDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatingApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/Extentions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Extentions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +128,7 @@
       <workItem from="1598433524994" duration="1794000" />
       <workItem from="1598443943730" duration="1934000" />
       <workItem from="1598534662564" duration="4593000" />
-      <workItem from="1598616531691" duration="10473000" />
+      <workItem from="1598616531691" duration="11711000" />
     </task>
     <task id="LOCAL-00001" summary="registration">
       <created>1597935296320</created>
@@ -204,22 +174,22 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="253" y="196" width="424" height="548" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1598621483794" />
-    <state width="1484" height="203" key="GridCell.Tab.0.bottom" timestamp="1598632432463">
+    <state width="1484" height="203" key="GridCell.Tab.0.bottom" timestamp="1598641329809">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598632432463" />
-    <state width="1484" height="203" key="GridCell.Tab.0.center" timestamp="1598632432462">
+    <state width="1484" height="203" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
+    <state width="1484" height="203" key="GridCell.Tab.0.center" timestamp="1598641329809">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
-    <state width="1484" height="203" key="GridCell.Tab.0.left" timestamp="1598632432462">
+    <state width="1484" height="203" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
+    <state width="1484" height="203" key="GridCell.Tab.0.left" timestamp="1598641329808">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
-    <state width="1484" height="203" key="GridCell.Tab.0.right" timestamp="1598632432462">
+    <state width="1484" height="203" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1598641329808" />
+    <state width="1484" height="203" key="GridCell.Tab.0.right" timestamp="1598641329809">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="1484" height="203" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598632432462" />
+    <state width="1484" height="203" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1598641329809" />
     <state width="1484" height="220" key="GridCell.Tab.1.bottom" timestamp="1597935393246">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
