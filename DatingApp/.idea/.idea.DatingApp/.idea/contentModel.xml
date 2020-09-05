@@ -4,9 +4,11 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_DatingApp.1232458235.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Controllers" t="Include">
         <e p="AuthController.cs" t="Include" />
+        <e p="PhotosController.cs" t="Include" />
         <e p="UsersControllers.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
@@ -23,6 +25,8 @@
       <e p="DatingApp.db" t="Include" />
       <e p="DatingApp.sln" t="IncludeFlat" />
       <e p="Dtos" t="Include">
+        <e p="PhotoForCreationsDto.cs" t="Include" />
+        <e p="PhotoForReturnDto.cs" t="Include" />
         <e p="PhotosrDetailedDto.cs" t="Include" />
         <e p="UserForDetailedDto.cs" t="Include" />
         <e p="UserForListDto.cs" t="Include" />
@@ -32,6 +36,7 @@
       </e>
       <e p="Helpers" t="Include">
         <e p="AutoMapperProfiles.cs" t="Include" />
+        <e p="CloudinarySettings.cs" t="Include" />
         <e p="Extentions.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
@@ -41,6 +46,8 @@
         <e p="20200819170317_addedUserMigrations.cs" t="Include" />
         <e p="20200827132719_ExtendUserModel.Designer.cs" t="Include" />
         <e p="20200827132719_ExtendUserModel.cs" t="Include" />
+        <e p="20200901152830_AddPublicId.Designer.cs" t="Include" />
+        <e p="20200901152830_AddPublicId.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Program.cs" t="Include" />

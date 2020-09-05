@@ -74,3 +74,4 @@
 /home/siharde/Desktop/Dotnet/DatingApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
 /home/siharde/Desktop/Dotnet/DatingApp/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /home/siharde/Desktop/Dotnet/DatingApp/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/siharde/Desktop/Dotnet/DatingApp/bin/Debug/netcoreapp3.1/CloudinaryDotNet.dll
