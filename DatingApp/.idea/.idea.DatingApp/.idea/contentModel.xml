@@ -23,6 +23,8 @@
       </e>
       <e p="DatingApp.csproj" t="IncludeRecursive" />
       <e p="DatingApp.db" t="Include" />
+      <e p="DatingApp.db-shm" t="Include" />
+      <e p="DatingApp.db-wal" t="Include" />
       <e p="DatingApp.sln" t="IncludeFlat" />
       <e p="Dtos" t="Include">
         <e p="PhotoForCreationsDto.cs" t="Include" />
