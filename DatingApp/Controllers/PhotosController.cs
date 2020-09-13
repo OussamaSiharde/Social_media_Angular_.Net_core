@@ -62,11 +62,7 @@ namespace DatingApp.Controllers
             var userFromRepo = await _repo.GetUser(userId);
 
             var file = photoForCreationsDto.File;
-            if (file.Length <= 0)
-            {
-                return BadRequest("Empty file");  
-             }
-            
+
             var uploadResult = new ImageUploadResult();
         
             if (file.Length > 0)
