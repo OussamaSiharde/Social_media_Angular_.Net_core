@@ -29,6 +29,7 @@ import {PreventUnsavedChanges} from "./_guards/prevent-unsaved-changes-guard";
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import {FileUploadModule} from "ng2-file-upload";
 import {BsDatepickerModule} from "ngx-bootstrap/datepicker";
+import {MomentModule} from "ngx-moment";
 
 export function tokenGetter() {
   return localStorage.getItem('token')
@@ -46,7 +47,7 @@ export function tokenGetter() {
     MemberCardComponent,
     MemberDetailComponent,
     MemberEditComponent,
-    PhotoEditorComponent
+    PhotoEditorComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,7 +68,8 @@ export function tokenGetter() {
         allowedDomains: ['localhost:5000'],
         disallowedRoutes: ['localhost:5000/api/auth']
       }
-    })
+    }),
+    MomentModule
   ],
   providers: [
     AuthService,

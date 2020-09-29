@@ -23,6 +23,8 @@
       </e>
       <e p="DatingApp.csproj" t="IncludeRecursive" />
       <e p="DatingApp.db" t="Include" />
+      <e p="DatingApp.db-shm" t="Include" />
+      <e p="DatingApp.db-wal" t="Include" />
       <e p="DatingApp.sln" t="IncludeFlat" />
       <e p="Dtos" t="Include">
         <e p="PhotoForCreationsDto.cs" t="Include" />
@@ -38,6 +40,10 @@
         <e p="AutoMapperProfiles.cs" t="Include" />
         <e p="CloudinarySettings.cs" t="Include" />
         <e p="Extentions.cs" t="Include" />
+        <e p="LogUserActivity.cs" t="Include" />
+        <e p="PageList.cs" t="Include" />
+        <e p="PaginationHeader.cs" t="Include" />
+        <e p="UserParams.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20200818145026_InitialCreate.Designer.cs" t="Include" />
